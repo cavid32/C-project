@@ -1,0 +1,14 @@
+D:\Code Academy\Consoleproject1\Consoleproject1\bin\Debug\netcoreapp3.1\Consoleproject1.exe
+D:\Code Academy\Consoleproject1\Consoleproject1\bin\Debug\netcoreapp3.1\Consoleproject1.deps.json
+D:\Code Academy\Consoleproject1\Consoleproject1\bin\Debug\netcoreapp3.1\Consoleproject1.runtimeconfig.json
+D:\Code Academy\Consoleproject1\Consoleproject1\bin\Debug\netcoreapp3.1\Consoleproject1.runtimeconfig.dev.json
+D:\Code Academy\Consoleproject1\Consoleproject1\bin\Debug\netcoreapp3.1\Consoleproject1.dll
+D:\Code Academy\Consoleproject1\Consoleproject1\bin\Debug\netcoreapp3.1\Consoleproject1.pdb
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.csproj.AssemblyReference.cache
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.AssemblyInfoInputs.cache
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.AssemblyInfo.cs
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.csproj.CoreCompileInputs.cache
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.dll
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.pdb
+D:\Code Academy\Consoleproject1\Consoleproject1\obj\Debug\netcoreapp3.1\Consoleproject1.genruntimeconfig.cache
