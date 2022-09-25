@@ -15,7 +15,7 @@ namespace Consoleproject1.Interface
         public Employee[] GetDepartmentEmployees(string depName);
         public Department EditDepartment(string oldname, string newname);
         public Employee AddEmployee(string name, string position, double salary, string departmentname);
-        public void RemoveEmployee(int no, string departmentname);
+        public void RemoveEmployee(string no, string departmentname);
         public Employee EditEmployee(string departmentname, int no, string fullname, double salary, string position);
     }
 }

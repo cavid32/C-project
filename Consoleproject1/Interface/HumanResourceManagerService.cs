@@ -73,7 +73,7 @@ namespace Consoleproject1.Interface
 
         public Employee EditEmployee(string departmentname, int no, string fullname, double salary, string position)
         {
-            throw new NotImplementedException();
+            
         }
 
         public Employee[] GetDepartmentEmployees(string depName)
@@ -106,9 +106,9 @@ namespace Consoleproject1.Interface
             return _employee;
         }
 
-        public void RemoveEmployee(int no, string departmentname)
+        public void RemoveEmployee(string no, string departmentname)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

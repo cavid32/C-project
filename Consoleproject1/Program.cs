@@ -120,7 +120,7 @@ namespace Consoleproject1
                         Employee[] emps =  managerService.GetEmployees();
                         foreach (var emp in emps)
                         {
-                            Console.WriteLine($"Name-{emp.FullName}\nPosition - {emp.Position} \nSalary - {emp.Salary}\nDepartment name - {emp.Department.Name}");
+                            Console.WriteLine($"No-{emp.No}\nName-{emp.FullName}\nPosition - {emp.Position} \nSalary - {emp.Salary}\nDepartment name - {emp.Department.Name}");
                             Console.WriteLine($"---------------------------------------------------------");
                         }
                         break;
@@ -142,7 +142,7 @@ namespace Consoleproject1
 
                             foreach (var emp in employees)
                             {
-                                Console.WriteLine($"Name-{emp.FullName}\nPosition - {emp.Position} \nSalary - {emp.Salary}\nDepartment name - {emp.Department.Name}");
+                                Console.WriteLine($"No-{emp.No}\nName-{emp.FullName}\nPosition - {emp.Position} \nSalary - {emp.Salary}\nDepartment name - {emp.Department.Name}");
                                 Console.WriteLine($"---------------------------------------------------------");
                             }
                         }
@@ -195,13 +195,35 @@ namespace Consoleproject1
                         }
 
                         break;
+
+                    case 7:
+                        //managerService.EditEmployee();
+                        break;
+                    case 8:
+                        Console.WriteLine("Departmentin adini daxil edin");
+                        string depName = Console.ReadLine();
+                        while (depName.Length < 2)
+                        {
+                            Console.WriteLine("minimum 2 herf olmalidir");
+                            depName = Console.ReadLine();
+                        }
+                        Console.WriteLine("Iscinin nomresin daxil edin");
+                        string no = Console.ReadLine();
+                        while (no.Length < 6)
+                        {
+                            Console.WriteLine("Iscinin nomresi minimum 6 sinvoldan ibaret olmalidir");
+                            no = Console.ReadLine();
+                        }
+                        managerService.RemoveEmployee(no, depName);
+
+                        break;
                     default:
 
                         break;
 
                 }
 
-            }
+                }
             while (true);
 
 
