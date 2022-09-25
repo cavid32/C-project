@@ -6,15 +6,18 @@ namespace Consoleproject1.Models
 {
     class Employee
     {
-        public Employee(int no, string fullName,string position,double salary)
+   
+
+        public Employee(string no, string name, string position, double salary, Department department)
         {
             No = no;
-            FullName = fullName;
+            FullName = name;
             Position = position;
             Salary = salary;
-
+            Department = department;
         }
-        public int No { get; set; }
+
+        public string No { get; set; }  
         public string FullName { get; set; }
         public string Position { get; set; }
         public double Salary { get; set; }

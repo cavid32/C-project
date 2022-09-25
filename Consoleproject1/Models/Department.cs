@@ -11,6 +11,7 @@ namespace Consoleproject1.Models
             Name = name;
             WorkerLimit = workerlimit;
             SalaryLimit = salarylimit;
+            Employees = new Employee[] {};
         }
 
         public string Name { get; set; }
